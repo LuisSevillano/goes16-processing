@@ -27,3 +27,33 @@ Each generated file will look similar to the following:
 ![goes-16](https://i.ibb.co/wNZ8mZ4/OR-ABI-L2-MCMIPF-M6-G16-s20212391340205-e20212391349524-c20212391350021.png)
 
 Thanks to [Unidata](https://www.unidata.ucar.edu/), much of the code comes from their great python tutorials.
+
+## Working with virtual enviroments
+
+Virtualenv is a tool that lets you create an isolated Python environment for your project. It creates an environment that has its own installation directories
+To install it:
+
+```
+pip install virtualenv
+```
+
+Go to your project folder and create it:
+
+```
+cd goes16-processing/
+virtualenv venv
+```
+
+To activate it:
+
+```
+source venv/bin/activate
+```
+
+To leave the virtual environment run:
+
+```
+deactivate
+```
+
+[Source](https://sourabhbajaj.com/mac-setup/Python/virtualenv.html).
